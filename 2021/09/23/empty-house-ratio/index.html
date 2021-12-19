@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="虎斑貓 Blog">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="https://akilakuma.github.io//img/home-bg-jeep.jpg">
+    <meta property="twitter:image" content="https://akilakuma.github.io//img/home-bg-jeep.jpg" />
+    
+
+    
+    <meta name="title" content="一個空屋率，兩種角度解釋" />
+    <meta property="og:title" content="一個空屋率，兩種角度解釋" />
+    <meta property="twitter:title" content="一個空屋率，兩種角度解釋" />
+    
+
+    
+    <meta name="description" content="最近看到兩個新聞，都是在講政府統計的空屋率。">
+    <meta property="og:description" content="最近看到兩個新聞，都是在講政府統計的空屋率。" />
+    <meta property="twitter:description" content="最近看到兩個新聞，都是在講政府統計的空屋率。" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="虎斑貓">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>一個空屋率，兩種角度解釋-虎斑貓 Blog</title>
+
+    <link rel="canonical" href="/2021/09/23/empty-house-ratio/">
+
+    <link rel="stylesheet" href="/css/iDisqus.min.css"/>
+
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+
+    
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" type="text/css">
+
+    
+    
+
+    
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">虎斑貓 Blog</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                        
+                        <li>
+                            <a href="/categories/ithome%E9%90%B5%E4%BA%BA%E8%B3%BD">ithome鐵人賽</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/%E6%80%9D%E8%BE%A8">思辨</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/%E6%8A%95%E8%B3%87">投資</a>
+                        </li>
+                        
+                    
+                    
+		    
+                        <li><a href="/top/about/">ABOUT</a></li>
+                    
+
+                    
+		    <li>
+                        <a href="/search"><i class="fa fa-search"></i></a>
+		    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/home-bg-jeep.jpg')
+    }
+</style>
+
+<header class="intro-header" >
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/%E6%80%9D%E8%BE%A8" title="思辨">
+                            思辨
+                        </a>
+                        
+                        <a class="tag" href="/tags/%E8%B3%87%E6%96%99%E7%A7%91%E5%AD%B8" title="資料科學">
+                            資料科學
+                        </a>
+                        
+                    </div>
+                    <h1>一個空屋率，兩種角度解釋</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                虎斑貓
+                             
+                            on 
+                            Thursday, September 23, 2021
+                            
+                            
+                            
+                            
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <blockquote>
+<p>最近看到兩個新聞，都是在講政府統計的空屋率。</p>
+</blockquote>
+<p>內政部台灣公佈空屋戶數約88萬戶，總戶數約890萬戶，空屋率下降到10%以下，近年來新低。
+主計處的統計，空屋有166萬戶，攀升的數字突破以往。</p>
+<p>166萬-88萬=78萬，中間相差78萬戶究竟跑到哪裡去？到底誰說的是真話？巨大的落差不免引起我的興趣。</p>
+<p>內政部統計的空屋，依據是房屋有稅籍資料，並且根據台電帳單，每個月用電60度以下納入計算。
+這個根據應該算是相對可靠，稅務和用電的狀況很實際，一個房屋沒有使用家電而想用整天開燈湊數，很難達到每月60度。</p>
+<p>難道是新成屋未售不用繳稅，而沒有納入統計嗎？問過有代銷經驗的朋友，就他的回答是建照發下來就確定要蓋的戶數，建成之後就要繳稅，未售出之前由建商負擔。</p>
+<p>那麼中間78萬的統計落差，究竟在哪裡？</p>
+<p>找到政府公開的統計說明書，簡單解釋是這樣，主計處統計的是「空閒住宅」，不管你新舊狀況怎麼樣，有兩戶的產權，一戶沒長住，那空屋就算1戶。</p>
+<p>內政部的統計，不算新屋待售，嚴格定義是建成後第一次登記後，5年內未轉交他人名下皆不列入。</p>
+<p>所以這相差的78萬戶，扣除一些地主自建自用的情況，和統計的誤差，個人主觀簡單打8折來看待，78*0.8約=60，約有60萬新成屋待售不算在內政部的統計之下。</p>
+<p>這個答案解決了自己的疑惑。</p>
+<p>心得：</p>
+<ol>
+<li>
+<p>內政部的空屋率，是統計「真正」的空屋率，也就是說有買房的人們（有經過產權轉移），買了卻空置未利用的數字。而這個空屋率若會下降，代表著真正有需求的人（真的要住）這兩年瘋狂搶購，想想分子和分母的關係，也就是說狂買房的背後需求是剛需比較多，投資客的比例可能比我們想像的少。</p>
+</li>
+<li>
+<p>物以稀為貴，所以解決方式應該是盡量增加供給，就像鈔票印多了，錢就不值錢一樣。房地合一稅2.0可能是個天大的錯誤，甚至1.0開始本來就是個錯誤政策，因為增加流動性成本，會導致交易減弱。另一邊，我們應該需要的是政府課徵非常重的囤房稅，壓迫那些60萬新屋待售的部分，或非自用的大量持有的餘屋，跑進市場。供給多過需求，交易流動性又很好的狀況下，資本市場自然會找到平衡。</p>
+</li>
+</ol>
+<p>參考資料：</p>
+<h3 id="內政府統計">內政府統計</h3>
+<p><a href="https://www.google.com.tw/....../amp....../news/id/4723757">https://www.google.com.tw/....../amp....../news/id/4723757</a></p>
+<h3 id="主計處統計">主計處統計</h3>
+<p><a href="https://www.google.com.tw/....../news/amp/story/6656/5747728">https://www.google.com.tw/....../news/amp/story/6656/5747728</a></p>
+<h3 id="統計說明p24">統計說明（p.24</h3>
+<p><a href="https://pip.moi.gov.tw/V3/Z/SCRZ0004.aspx?Func=SCRE0104&amp;Param=20191212141367.pdf%2C">https://pip.moi.gov.tw/V3/Z/SCRZ0004.aspx?Func=SCRE0104&amp;Param=20191212141367.pdf%2C</a>統計資訊簡冊(108年11月出刊)</p>
+
+                
+                
+<div class="entry-shang text-center">
+    
+	    <p>「真诚赞赏，手留余香」</p>
+	
+	<button class="zs show-zs btn btn-bred">赞赏支持</button>
+</div>
+<div class="zs-modal-bg"></div>
+
+<script type="text/javascript" src="/js/reward.js"></script>
+
+                
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2021/09/13/ithome2021day5/" data-toggle="tooltip" data-placement="top" title="2021 ithome鐵人賽-模型有適用性 | ML#Day5">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                </ul>
+                
+<div id="disqus-comment"></div>
+
+
+            </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
+            
+            <div class="
+                col-lg-11 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        <a href="/tags/vertex-ai" title="vertex-ai">
+                            vertex-ai
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/%E6%80%9D%E8%BE%A8" title="思辨">
+                            思辨
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/%E6%8A%95%E8%B3%87%E6%A6%82%E5%BF%B5" title="投資概念">
+                            投資概念
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/%E8%B3%87%E6%96%99%E7%A7%91%E5%AD%B8" title="資料科學">
+                            資料科學
+                        </a>
+                        
+                        
+                    </div>
+                </section>
+                
+
+                
+                
+                <section>
+                    <hr>
+                    <h5>FRIENDS</h5>
+                    <ul class="list-inline">
+                        
+                        <li><a target="_blank" href="https://vocus.cc/user/5eea3053fd89780001068993">方格子寫作</a></li>
+                        
+                    </ul>
+                </section>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                   
+                   <li>
+                       <a href='' rel="alternate" type="application/rss+xml" title="虎斑貓 Blog" >
+                           <span class="fa-stack fa-lg">
+                               <i class="fas fa-circle fa-stack-2x"></i>
+                               <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                           </span>
+                       </a>
+                   </li>
+                   
+                    
+                    <li>
+                        <a href="mailto:akilakuma@gmail.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+
+                    
+                    
+                    
+
+                    
+
+		    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/yourgithub">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/yourlinkedinid">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+                </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; 虎斑貓 Blog 2021
+                    <br>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-CDRH54F447', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+</body>
+</html>

@@ -1,10 +1,256 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Akilakuma New Hugo Site</title>
+    <title>虎斑貓 Blog</title>
     <link>https://akilakuma.github.io/</link>
-    <description>Recent content on Akilakuma New Hugo Site</description>
+    <description>Recent content on 虎斑貓 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language><atom:link href="https://akilakuma.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 23 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://akilakuma.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一個空屋率，兩種角度解釋</title>
+      <link>https://akilakuma.github.io/2021/09/23/empty-house-ratio/</link>
+      <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akilakuma.github.io/2021/09/23/empty-house-ratio/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;最近看到兩個新聞，都是在講政府統計的空屋率。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>2021 ithome鐵人賽-模型有適用性 | ML#Day5</title>
+      <link>https://akilakuma.github.io/2021/09/13/ithome2021day5/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akilakuma.github.io/2021/09/13/ithome2021day5/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;所以決定好了題目，再挑選模型來研究和學習，其實是對於我們這種有成果壓力的小白工程師比較好的選擇，根據題目是需要「回歸」還是「分類」的類型先研究，等有餘力或者題目改變了，再去了解另外一種類型的模型。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>2021 ithome鐵人賽-挑選命題的要件 | ML#Day4</title>
+      <link>https://akilakuma.github.io/2021/09/12/ithome2021day4/</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akilakuma.github.io/2021/09/12/ithome2021day4/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;或許可以用幾個面向來決定我們的題目。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>2021 ithome鐵人賽-ML是一種方法 | ML#Day3</title>
+      <link>https://akilakuma.github.io/2021/09/11/ithome2021day3/</link>
+      <pubDate>Sat, 11 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akilakuma.github.io/2021/09/11/ithome2021day3/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;在踏入ML領域的第一步，也是最核心的關鍵，就是決定命題。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>2021 ithome鐵人賽-了解必要的概論 | ML#Day2</title>
+      <link>https://akilakuma.github.io/2021/09/10/ithome2021day2/</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akilakuma.github.io/2021/09/10/ithome2021day2/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;ML 最主要的目的是得到一個數學函式，或者是說數學模型，然後運用該模型來得到想要的結果。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>2021 ithome鐵人賽-前言 | ML#Day1</title>
+      <link>https://akilakuma.github.io/2021/09/09/day1/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akilakuma.github.io/2021/09/09/day1/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;我們希望能夠明白，AI對於工作上的實務使用，與各方誇誇其談的理論，這個距離究竟有多遠？&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>2021 ithome鐵人賽-前言 | ML#Day1</title>
+      <link>https://akilakuma.github.io/2021/09/09/day1/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akilakuma.github.io/2021/09/09/day1/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;我們希望能夠明白，AI對於工作上的實務使用，與各方誇誇其談的理論，這個距離究竟有多遠？&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>2021 ithome鐵人賽-前言 | ML#Day1</title>
+      <link>https://akilakuma.github.io/2021/09/09/day1/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akilakuma.github.io/2021/09/09/day1/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;我們希望能夠明白，AI對於工作上的實務使用，與各方誇誇其談的理論，這個距離究竟有多遠？&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>2021 ithome鐵人賽-前言 | ML#Day1</title>
+      <link>https://akilakuma.github.io/2021/09/09/day1/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akilakuma.github.io/2021/09/09/day1/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;我們希望能夠明白，AI對於工作上的實務使用，與各方誇誇其談的理論，這個距離究竟有多遠？&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>2021 ithome鐵人賽-前言 | ML#Day1</title>
+      <link>https://akilakuma.github.io/2021/09/09/day1/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akilakuma.github.io/2021/09/09/day1/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;我們希望能夠明白，AI對於工作上的實務使用，與各方誇誇其談的理論，這個距離究竟有多遠？&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>2021 ithome鐵人賽-前言 | ML#Day1</title>
+      <link>https://akilakuma.github.io/2021/09/09/day1/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akilakuma.github.io/2021/09/09/day1/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;我們希望能夠明白，AI對於工作上的實務使用，與各方誇誇其談的理論，這個距離究竟有多遠？&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>2021 ithome鐵人賽-前言 | ML#Day1</title>
+      <link>https://akilakuma.github.io/2021/09/09/day1/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akilakuma.github.io/2021/09/09/day1/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;我們希望能夠明白，AI對於工作上的實務使用，與各方誇誇其談的理論，這個距離究竟有多遠？&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>2021 ithome鐵人賽-前言 | ML#Day1</title>
+      <link>https://akilakuma.github.io/2021/09/09/day1/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akilakuma.github.io/2021/09/09/day1/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;我們希望能夠明白，AI對於工作上的實務使用，與各方誇誇其談的理論，這個距離究竟有多遠？&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>2021 ithome鐵人賽-前言 | ML#Day1</title>
+      <link>https://akilakuma.github.io/2021/09/09/day1/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akilakuma.github.io/2021/09/09/day1/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;我們希望能夠明白，AI對於工作上的實務使用，與各方誇誇其談的理論，這個距離究竟有多遠？&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>2021 ithome鐵人賽-前言 | ML#Day1</title>
+      <link>https://akilakuma.github.io/2021/09/09/day1/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akilakuma.github.io/2021/09/09/day1/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;我們希望能夠明白，AI對於工作上的實務使用，與各方誇誇其談的理論，這個距離究竟有多遠？&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>2021 ithome鐵人賽-前言 | ML#Day1</title>
+      <link>https://akilakuma.github.io/2021/09/09/day1/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akilakuma.github.io/2021/09/09/day1/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;我們希望能夠明白，AI對於工作上的實務使用，與各方誇誇其談的理論，這個距離究竟有多遠？&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>2021 ithome鐵人賽-前言 | ML#Day1</title>
+      <link>https://akilakuma.github.io/2021/09/09/day1/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akilakuma.github.io/2021/09/09/day1/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;我們希望能夠明白，AI對於工作上的實務使用，與各方誇誇其談的理論，這個距離究竟有多遠？&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>2021 ithome鐵人賽-前言 | ML#Day1</title>
+      <link>https://akilakuma.github.io/2021/09/09/day1/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akilakuma.github.io/2021/09/09/day1/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;我們希望能夠明白，AI對於工作上的實務使用，與各方誇誇其談的理論，這個距離究竟有多遠？&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>2021 ithome鐵人賽-前言 | ML#Day1</title>
+      <link>https://akilakuma.github.io/2021/09/09/day1/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akilakuma.github.io/2021/09/09/day1/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;我們希望能夠明白，AI對於工作上的實務使用，與各方誇誇其談的理論，這個距離究竟有多遠？&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>正和遊戲、零和遊戲 | 投資隨筆#5</title>
+      <link>https://akilakuma.github.io/2021/07/07/invest-game-category/</link>
+      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akilakuma.github.io/2021/07/07/invest-game-category/</guid>
+      <description>&lt;p&gt;正和、零和、負和遊戲解釋&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>複利的理解 | 投資隨筆#2</title>
+      <link>https://akilakuma.github.io/2021/07/07/invest-game-category/</link>
+      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akilakuma.github.io/2021/07/07/invest-game-category/</guid>
+      <description>&lt;p&gt;愛因斯坦曾經說過：「世界的第八大奇蹟是複利。」&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://akilakuma.github.io/search/placeholder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://akilakuma.github.io/search/placeholder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://akilakuma.github.io/top/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://akilakuma.github.io/top/about/</guid>
+      <description>Taiwanese guy</description>
+    </item>
+    
   </channel>
 </rss>

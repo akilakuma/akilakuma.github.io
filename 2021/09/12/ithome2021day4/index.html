@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="虎斑貓 Blog">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="https://akilakuma.github.io//img/home-bg-jeep.jpg">
+    <meta property="twitter:image" content="https://akilakuma.github.io//img/home-bg-jeep.jpg" />
+    
+
+    
+    <meta name="title" content="2021 ithome鐵人賽-挑選命題的要件 | ML#Day4" />
+    <meta property="og:title" content="2021 ithome鐵人賽-挑選命題的要件 | ML#Day4" />
+    <meta property="twitter:title" content="2021 ithome鐵人賽-挑選命題的要件 | ML#Day4" />
+    
+
+    
+    <meta name="description" content="或許可以用幾個面向來決定我們的題目">
+    <meta property="og:description" content="或許可以用幾個面向來決定我們的題目" />
+    <meta property="twitter:description" content="或許可以用幾個面向來決定我們的題目" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="虎斑貓">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>2021 ithome鐵人賽-挑選命題的要件 | ML#Day4-虎斑貓 Blog</title>
+
+    <link rel="canonical" href="/2021/09/12/ithome2021day4/">
+
+    <link rel="stylesheet" href="/css/iDisqus.min.css"/>
+
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+
+    
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" type="text/css">
+
+    
+    
+
+    
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">虎斑貓 Blog</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                        
+                        <li>
+                            <a href="/categories/ithome%E9%90%B5%E4%BA%BA%E8%B3%BD">ithome鐵人賽</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/%E6%80%9D%E8%BE%A8">思辨</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/%E6%8A%95%E8%B3%87">投資</a>
+                        </li>
+                        
+                    
+                    
+		    
+                        <li><a href="/top/about/">ABOUT</a></li>
+                    
+
+                    
+		    <li>
+                        <a href="/search"><i class="fa fa-search"></i></a>
+		    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/home-bg-jeep.jpg')
+    }
+</style>
+
+<header class="intro-header" >
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/vertex-ai" title="Vertex AI">
+                            Vertex AI
+                        </a>
+                        
+                        <a class="tag" href="/tags/%E8%B3%87%E6%96%99%E7%A7%91%E5%AD%B8" title="資料科學">
+                            資料科學
+                        </a>
+                        
+                    </div>
+                    <h1>2021 ithome鐵人賽-挑選命題的要件 | ML#Day4</h1>
+                    <h2 class="subheading">後端工程師的ML入門理解與Vertex AI</h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                虎斑貓
+                             
+                            on 
+                            Sunday, September 12, 2021
+                            
+                            
+                            
+                            
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <blockquote>
+<p>或許可以用幾個面向來決定我們的題目。</p>
+</blockquote>
+<p>過去那一段時間，直到感受做不出明確的實作成果，和夥伴才意識到題目有問題。</p>
+<p>經驗整理一下，或許可以用幾個面向來決定我們的題目：</p>
+<hr>
+<h2 id="1-結果的資料型態">1. 結果的資料型態：</h2>
+<p>連續型資料v.s離散型資料</p>
+<p>這取決於你想要的是一個數值結果，還是Yes or No 的答案。</p>
+<p>數值的結果基本上會是一種連續型的資料，譬如說預測老闆明天會幾點進辦公室，可能9:01分，可能九點02分，或者9點03分。</p>
+<p>更精準的數值，也許是9:01:00，也許是9:01:01，甚至9:01:01.234等等，換而言之這就不會有標準答案，我們只需要的一個可以接受範圍內的答案。</p>
+<p>或者預測房屋總價，假設有個物件在800萬上下，802萬，805萬，820萬等等其實意義不大，我們只是需要個大概的價錢。</p>
+<p>一方面，因為是數學公式運算，得到的解若非精準一模一樣，在數學上就是不正確，因此這種題目的答案可以說一開始就沒有完美解答，只有誤差範圍在一定的程度之下的答案。</p>
+<p>離散型的答案，譬如說對/錯、是/否、貓/狗辨識等等，彼此個體差異有明確的界線，比起數值的加減乘除，你在意的是能夠分界的參數。</p>
+<p>這兩種不同性質的結果，會影響到參數的取用，以及模型的選定。</p>
+<hr>
+<h2 id="2-範圍的大小">2. 範圍的大小</h2>
+<p>範圍越大，問題會越複雜，所需要的參考參數也會越多，甚至會需要因應不同的情境而調整(換句說問題複雜到考慮各種情境)。</p>
+<p>而一個參數，就可以想像成一個維度，試想人類生活在3維空間，感受到4維的流動(時間)，4維以上已經無法用圖像表示模型的運作處理，只能用數學表示，可知道對於理解的直覺上會有諸多不便。</p>
+<p>因此題目的大小，一方面可以用需要選用參數多寡，作為檢視題目難易的一種參考依據。</p>
+<hr>
+<h2 id="3-情境的定義">3. 情境的定義</h2>
+<p>題目可以是開放式的問題，或者天馬行空的想像，不過答案越肯定與切確越好，最好每個人聽到這個問題都有共同的認知與定義，ML才越有機會做下去。</p>
+<p>舉例來說，題目定義「抓出違反交通規則的行為」，什麼是違反交通規則？答案無法在短時間得出，而且有模糊邊界，答案基本上有分歧的狀況之下，這個題目有非常高的複雜度。</p>
+<p>但是題目簡化一下，變成「抓出闖紅燈的行為」，問題簡單多了吧？不過也因此我們當初太大意了，認為這樣的題目已經簡略到可以處理，其實卻還是太過攏統。</p>
+<p>闖紅燈也許是汽車、機車、腳踏車、行人、甚至一隻狗、另外是不是要排除救護車、警車、消防車的通過，通過兩個直線的紅燈才是我們關心的問題，或者違規在紅燈時迴轉，也是我們關心的問題呢？</p>
+<p>諸如此類，題目能夠精簡，入門的障礙在開始之前就能夠排除一大堆。</p>
+<p>當然就會開始碰到現實面的問題，太簡單的問題，對商業產出是否有意義呢？是否能夠說服你的老闆進行項目？</p>
+<hr>
+<h2 id="4-會必然發生的事件">4. 會必然發生的事件</h2>
+<p>以貓狗辨識來說，這世界上有貓有狗，進行ML就不太困難。</p>
+<p>但你要預測世界有沒有外星人，或者經過幾年後，我們會跟外星人有一次清楚的文明交流，問題就相當困難。</p>
+<p>現實層面上，你要預測電商每天會有多少訂單量，比起預測明年雙11辦活動的時候，會有多少訂單量還來得容易。</p>
+<p>每天的訂單量在你每次訓練完模型，或者參數調整完，馬上就可以驗證與調整。</p>
+<p>辦活動的訂單量卻在明年活動結束之前，都不知道結果如何。</p>
+<p>我們常說機器學習，就是一直在訓練模型，所謂「訓練」真的不是隨便說說而已，需要反覆進行無數次的調整，要怎麼調整又是基於前次的不好而改變，如果不知道結果好壞，又該如何調整？</p>
+<p>所以基於成本效益，能夠短時間驗證我們訓練結果的題目才是好題目，如果沒辦法確定的事情，就先放一邊去吧。</p>
+<p>又譬如說你想要做一個偵測駭客攻擊的AI模型，除非團隊有能力自行製造情境，否則你怎麼知道駭客什麼時候會來攻擊系統，好驗證你的訓練模型呢？</p>
+<p>以上大概是這陣子來的血淚心得，我們的題目在前兩次都選擇不夠好。</p>
+
+                
+                
+<div class="entry-shang text-center">
+    
+	    <p>「真诚赞赏，手留余香」</p>
+	
+	<button class="zs show-zs btn btn-bred">赞赏支持</button>
+</div>
+<div class="zs-modal-bg"></div>
+
+<script type="text/javascript" src="/js/reward.js"></script>
+
+                
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2021/09/11/ithome2021day3/" data-toggle="tooltip" data-placement="top" title="2021 ithome鐵人賽-ML是一種方法 | ML#Day3">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2021/09/13/ithome2021day5/" data-toggle="tooltip" data-placement="top" title="2021 ithome鐵人賽-模型有適用性 | ML#Day5">Next
+                            Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+                
+<div id="disqus-comment"></div>
+
+
+            </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
+            
+            <div class="
+                col-lg-11 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        <a href="/tags/vertex-ai" title="vertex-ai">
+                            vertex-ai
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/%E6%80%9D%E8%BE%A8" title="思辨">
+                            思辨
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/%E6%8A%95%E8%B3%87%E6%A6%82%E5%BF%B5" title="投資概念">
+                            投資概念
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/%E8%B3%87%E6%96%99%E7%A7%91%E5%AD%B8" title="資料科學">
+                            資料科學
+                        </a>
+                        
+                        
+                    </div>
+                </section>
+                
+
+                
+                
+                <section>
+                    <hr>
+                    <h5>FRIENDS</h5>
+                    <ul class="list-inline">
+                        
+                        <li><a target="_blank" href="https://vocus.cc/user/5eea3053fd89780001068993">方格子寫作</a></li>
+                        
+                    </ul>
+                </section>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                   
+                   <li>
+                       <a href='' rel="alternate" type="application/rss+xml" title="虎斑貓 Blog" >
+                           <span class="fa-stack fa-lg">
+                               <i class="fas fa-circle fa-stack-2x"></i>
+                               <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                           </span>
+                       </a>
+                   </li>
+                   
+                    
+                    <li>
+                        <a href="mailto:akilakuma@gmail.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+
+                    
+                    
+                    
+
+                    
+
+		    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/yourgithub">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/yourlinkedinid">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+                </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; 虎斑貓 Blog 2021
+                    <br>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-CDRH54F447', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+</body>
+</html>
